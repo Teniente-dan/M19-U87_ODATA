@@ -1,0 +1,3 @@
+sap.ui.define(["sap/m/Text","nm_z87_gw100/Project_Name_CrudTemp/model/formatter"],function(t,n){"use strict";QUnit.module("formatter - Currency value");function u(t,u,e){var i=n.currencyValue(u);t.strictEqual(i,e,"The rounding was correct")}QUnit.test("S+
+hould round down a 3 digit number",function(t){u.call(this,t,"3.123","3.12")});QUnit.test("Should round up a 3 digit number",function(t){u.call(this,t,"3.128","3.13")});QUnit.test("Should round a negative number",function(t){u.call(this,t,"-3","-3.00")})+
+;QUnit.test("Should round an empty string",function(t){u.call(this,t,"","")});QUnit.test("Should round a zero",function(t){u.call(this,t,"0","0.00")})});                                                                                                      

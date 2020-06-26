@@ -1,0 +1,2 @@
+sap.ui.define(["./BaseController"],function(t){"use strict";return t.extend("nm_z87_gw100.Project_Name_CrudTemp.controller.NotFound",{onInit:function(){this.getRouter().getTarget("notFound").attachDisplay(this._onNotFoundDisplayed,this)},_onNotFoundDispl+
+ayed:function(){this.getModel("appView").setProperty("/layout","OneColumn")}})});                                                                                                                                                                              

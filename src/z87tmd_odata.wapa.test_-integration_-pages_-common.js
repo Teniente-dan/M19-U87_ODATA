@@ -1,0 +1,3 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(e){"use strict";return e.extend("nm_z87_gw100.Project_Name_CrudTemp.test.integration.pages.Common",{createAWaitForAnEntitySet:function(e){return{success:function(){var t;var n=this.getMockServer().then(function+
+(n){t=n.getEntitySetData(e.entitySet)});this.iWaitForPromise(n);return this.waitFor({success:function(){e.success.call(this,t)}})}}},getMockServer:function(){return new Promise(function(t){e.getWindow().sap.ui.require(["nm_z87_gw100/Project_Name_CrudTemp+
+/localService/mockserver"],function(e){t(e.getMockServer())})})}})});                                                                                                                                                                                          

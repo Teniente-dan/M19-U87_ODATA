@@ -1,0 +1,3 @@
+sap.ui.define(["sap/ui/test/Opa5","nm_z87_gw100/Project_Name_CrudTemp/localService/mockserver","sap/ui/model/odata/v2/ODataModel"],function(a,e,t){"use strict";return a.extend("nm_z87_gw100.Project_Name_CrudTemp.test.integration.arrangements.Startup",{iS+
+tartMyApp:function(a){var t=a||{};this._clearSharedData();t.delay=t.delay||1;var r=e.init(t);this.iWaitForPromise(r);this.iStartMyUIComponent({componentConfig:{name:"nm_z87_gw100.Project_Name_CrudTemp",async:true},hash:t.hash,autoWait:t.autoWait})},_clea+
+rSharedData:function(){t.mSharedData={server:{},service:{},meta:{}}}})});                                                                                                                                                                                      
